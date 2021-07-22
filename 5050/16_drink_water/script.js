@@ -31,7 +31,7 @@ function highlightCups(index) {
 function updateBigCup() {
   const fullCups = document.querySelectorAll('.cup-small.full').length
   const totalCups = smallCups.length
-  const finMessage = document.querySelector('.fin-message')
+  //   const finMessage = document.querySelector('.fin-message')
 
   console.log(totalCups)
 
