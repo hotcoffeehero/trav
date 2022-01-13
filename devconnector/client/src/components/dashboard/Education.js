@@ -18,12 +18,13 @@ const Education = ({ education, deleteEducation }) => {
         )}
       </td>
       <td>
-      <button
+        <button
           onClick={() => deleteEducation(edu._id)}
           className='btn btn-danger'
         >
           Delete
-        </button>      </td>
+        </button>
+      </td>
     </tr>
   ));
 
